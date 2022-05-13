@@ -6,7 +6,7 @@
 /*   By: tbeaudoi <tbeaudoi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 16:11:23 by tbeaudoi          #+#    #+#             */
-/*   Updated: 2022/05/13 16:18:54 by tbeaudoi         ###   ########.fr       */
+/*   Updated: 2022/05/13 16:19:45 by tbeaudoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
 # include <unistd.h>
 
 # define B_10 "0123456789"
-# define B_16 "0123456789abcdef"
-# define B_16X "0123456789ABCDEF"
+# define B_16L "0123456789abcdef"
+# define B_16U "0123456789ABCDEF"
 
 int	ft_printf(const char *fmt, ...);
 
