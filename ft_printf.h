@@ -6,7 +6,7 @@
 /*   By: tbeaudoi <tbeaudoi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 16:11:23 by tbeaudoi          #+#    #+#             */
-/*   Updated: 2022/05/13 16:19:45 by tbeaudoi         ###   ########.fr       */
+/*   Updated: 2022/05/13 16:58:20 by tbeaudoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,5 +20,6 @@
 # define B_16U "0123456789ABCDEF"
 
 int	ft_printf(const char *fmt, ...);
+
 
 #endif

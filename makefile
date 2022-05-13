@@ -6,12 +6,12 @@
 #    By: tbeaudoi <tbeaudoi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/12 16:54:06 by tbeaudoi          #+#    #+#              #
-#    Updated: 2022/05/12 17:03:40 by tbeaudoi         ###   ########.fr        #
+#    Updated: 2022/05/13 16:58:27 by tbeaudoi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRCS = ft_printf.c
-
+ 
 OBJ = $(SRCS:.c=.o)
 
 CFLAGS = -Wall -Wextra -Werror
