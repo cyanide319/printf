@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbeaudoi <tbeaudoi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tbeaudoin <tbeaudoin@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 16:11:23 by tbeaudoi          #+#    #+#             */
-/*   Updated: 2022/05/13 16:58:20 by tbeaudoi         ###   ########.fr       */
+/*   Updated: 2022/05/16 15:01:59 by tbeaudoin        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 # define B_16L "0123456789abcdef"
 # define B_16U "0123456789ABCDEF"
 
-int	ft_printf(const char *fmt, ...);
-
+int	ft_printf(const char *format, ...);
 
 #endif
