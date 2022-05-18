@@ -6,7 +6,7 @@
 /*   By: tbeaudoin <tbeaudoin@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 16:11:18 by tbeaudoi          #+#    #+#             */
-/*   Updated: 2022/05/18 14:07:49 by tbeaudoin        ###   ########.fr       */
+/*   Updated: 2022/05/18 14:43:41 by tbeaudoin        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@ int check_flags(va_list flag, const char frmt)
         printlen += ft_putchar(va_arg(flag, int));
     else if (frmt == 's')
         printlen += ft_putstr(va_arg(flag, char *));
-//    else if (frmt == 'p')
-//        printlen += ;
+    else if (frmt == '%')
+        printlen += write(1, "%", 1);
     return (printlen);
 }
 
@@ -67,7 +67,7 @@ int	ft_printf(const char *format, ...)
 
 int main(void)
 {
-    ft_printf("%c \n   %s", 'h', "bon matin");
+    ft_printf("%c \n   %s   %%", 'h', "bon matin");
     printf("\n%c\n", 'h');
     ft_printf("%s", "bon matin");
     printf("\n%s\n", "bon matin");
