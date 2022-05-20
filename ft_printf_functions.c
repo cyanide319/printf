@@ -6,7 +6,7 @@
 /*   By: tbeaudoi <tbeaudoi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 16:11:18 by tbeaudoi          #+#    #+#             */
-/*   Updated: 2022/05/20 16:35:17 by tbeaudoi         ###   ########.fr       */
+/*   Updated: 2022/05/20 16:41:03 by tbeaudoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,24 +78,3 @@ int	check_flags(va_list flag, const char frmt)
 		ft_putnbr(va_arg(flag, int), &printlen);
 	return (printlen);
 }
-
-// int	ft_printf(const char *format, ...)
-// {
-// 	size_t	i;
-// 	size_t	printlen;
-// 	va_list	flag;
-
-// 	i = 0;
-// 	printlen = 0;
-// 	va_start(flag, format);
-// 	while (format[i])
-// 	{
-// 		if (format[i] == '%')
-// 			printlen += check_flags(flag, format[++i]);
-// 		else
-// 			printlen += write(1, &format[i], 1);
-// 		i++;
-// 	}
-// 	va_end(flag);
-// 	return (printlen);
-// }

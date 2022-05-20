@@ -6,11 +6,11 @@
 #    By: tbeaudoi <tbeaudoi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/12 16:54:06 by tbeaudoi          #+#    #+#              #
-#    Updated: 2022/05/13 17:19:01 by tbeaudoi         ###   ########.fr        #
+#    Updated: 2022/05/20 16:11:19 by tbeaudoi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS = ft_printf.c
+SRCS = ft_printf.c ft_printf_functions.c
  
 OBJ = $(SRCS:.c=.o)
 
