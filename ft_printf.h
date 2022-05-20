@@ -6,7 +6,7 @@
 /*   By: tbeaudoi <tbeaudoi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/13 16:11:23 by tbeaudoi          #+#    #+#             */
-/*   Updated: 2022/05/20 16:35:30 by tbeaudoi         ###   ########.fr       */
+/*   Updated: 2022/05/20 17:24:37 by tbeaudoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 # define B_16U "0123456789ABCDEF"
 
 int		ft_printf(const char *format, ...);
-int		check_flags(va_list flag, const char frmt);
+void	check_flags(va_list *flag, char frmt, size_t *printlen);
 void	ft_putnbr(int nb, size_t *count);
 int		ft_putchar(char c);
 void	ft_putstr(char *str, size_t *count);
