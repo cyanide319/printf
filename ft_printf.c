@@ -6,12 +6,11 @@
 /*   By: tbeaudoi <tbeaudoi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 16:09:25 by tbeaudoi          #+#    #+#             */
-/*   Updated: 2022/05/20 17:32:15 by tbeaudoi         ###   ########.fr       */
+/*   Updated: 2022/05/23 13:23:06 by tbeaudoi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
 
 int	ft_printf(const char *format, ...)
 {
